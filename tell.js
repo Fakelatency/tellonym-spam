@@ -136,7 +136,7 @@ async function message(){
     let proxyNumber = 0;
     
     while(1==1){ 
-      await spam(tellLink,tellMessage,array[proxyNumber]);
+      await spam(tellLink,tellMessage/*,array[proxyNumber]*/);
     }
     
     
