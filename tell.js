@@ -25,12 +25,12 @@ async function message(){
   return message;
 }
 
- async function spam(tellLink,tellMessage) {
+ async function spam(tellLink,tellMessage,proxy) {
 
     const browser = await puppeteer.launch({
         headless: true,
         args: [
-            // '--proxy-server=77.111.247.4',
+            // '--proxy-server=proxy',
             
           ],
     });
@@ -133,8 +133,10 @@ async function message(){
 (async () => {
     let tellLink = await link();
     let tellMessage = await message();
+    let proxyNumber = 0;
+    
     while(1==1){ 
-      await spam(tellLink, tellMessage);
+      await spam(tellLink,tellMessage,array[proxyNumber]);
     }
     
     
