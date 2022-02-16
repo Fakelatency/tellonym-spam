@@ -8,6 +8,6 @@ Usage:
 4. Enter and Nothing more 
 
 
-If you want to use proxy (tellonym blocks 99.9% of it from my exp.) paste ip into proxy txt and use "enter" between them than uncomment args in tell.js 
+If you want to use proxy (tellonym blocks 99.9% of it from my exp.) paste ip into proxy txt and uncomment args in tell.js 
 
 Use Responsibly <3
